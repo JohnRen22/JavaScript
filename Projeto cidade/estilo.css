@@ -1,0 +1,188 @@
+body {
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	margin: 0px;
+	padding: 0px;
+	background: #fff url("ima/imagens/fundo.png") repeat-x top left;
+}
+
+#container {
+	width: 60%;
+	height: 1000px;
+	margin: 0 auto;
+}
+
+#topo {	
+
+	height: 20%;
+	background: url(ima/imagens/detalhe-topo.png) no-repeat top right;
+	background-position: 500px -10px;
+}
+
+.logo {
+	background: url(ima/imagens/logo.png) no-repeat top left;
+	height: 66px;
+	width: 152;
+	text-indent: -800px;
+}
+
+/* Barra de navegação 
+*/
+
+#nav li a {
+	text-decoration: none;
+	color: white;
+	font-size: 0.9em;
+	padding: 0.9em;
+	line-height: 2.1em;
+	background: #b10333 url(ima/imagens/divisor.png) repeat-y top left;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+
+}
+
+#nav li{
+	margin-top: 20px;
+	float: left;
+	
+}
+
+#nav a:hover {
+	color: #69001d;
+}
+
+#nav a.primeiro{
+	background-image: none;
+}
+
+body.home #nav a#home,
+body.brasil #nav a#brasil,
+body.internacional #nav a#internacional,
+body.fotos #nav a#fotos
+
+{
+	color: #fff;
+	background: #de003e;
+	cursor: text;
+}
+
+.limp {
+	clear: both;
+}
+
+/* configuração de 3 colunas site */
+
+#conteudo {
+
+	background: #f5f5f5;
+	margin-top: 20px;
+	border: 1px solid red;
+}
+
+#lateral {
+	width: 180px;
+	float: left;
+	margin: 0 0 20px -750px;
+}
+
+#primario {
+	width: 270px;
+	float: left;
+	margin: 0 0 20px 200px;
+	background: blue;
+}
+
+#duas-colunas #primario {
+	width: 555px;
+}
+
+#uma-colunas #primario {
+	width: 750px;
+	margin: 0 0 20px 0px;
+}
+
+#secundario {
+	width: 270px;
+	float: left;
+	margin: 0 0 20px 15px;
+	background: green;
+}
+
+
+
+#container-rodape {
+	background: #294c71;
+	padding: 20px;
+}
+
+/* Caixa */
+
+.caixa {
+	background: #f3f3f3 url(ima/imagens/fundo-caixa.png);
+	margin: 10px 0;
+	padding: 5px 0 5px 0;
+}
+
+h2 {
+	font-size: 1.1em;
+	background: #294c71;
+	color: #fff;
+	padding: 5px;
+}
+
+.caixa-conteudo {
+	background: #fff;
+	padding: 5px;
+	margin-top: 5px;
+}
+
+/* Menus Laterais
+*/
+
+#lateral ul a {
+	font-size: 0.9em;
+	padding: 3px;
+	display: block;
+	line-height: 30px;
+	color: #000;
+	text-decoration: none;
+	border-bottom: 1px solid #f3f3f3;
+}
+
+#lateral ul a:hover {
+	color: #a1a1a1;
+	background: #f9f9f9 url(ima/imagens/marcador.png) no-repeat left center;
+	text-indent: 20px;
+}
+
+label {
+	display: block;
+	cursor: pointer;
+}
+
+input {
+	font-size: 0.9em;
+	background: #fff;
+	padding: 5px;
+	border: 1px solid #a1a1a1;
+	width: 125px;
+}
+
+input.submit {
+	width: 80px;
+	background-color: #b10333;
+	border: 2px solid #870529;
+	color: #fff;
+}
+
+/*rodapé*/
+
+#rodape {
+	color: #fff;
+	width: 720px;
+	margin: 0 auto;
+}
+
