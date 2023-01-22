@@ -2,7 +2,7 @@ body {
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
 	margin: 0px;
 	padding: 0px;
-	background: #fff url("ima/imagens/fundo.png") repeat-x top left;
+	background: #fff url("imagens/fundo.png") repeat-x top left;
 }
 
 #container {
@@ -14,12 +14,12 @@ body {
 #topo {	
 
 	height: 20%;
-	background: url(ima/imagens/detalhe-topo.png) no-repeat top right;
+	background: url(imagens/detalhe-topo.png) no-repeat top right;
 	background-position: 500px -10px;
 }
 
 .logo {
-	background: url(ima/imagens/logo.png) no-repeat top left;
+	background: url(imagens/logo.png) no-repeat top left;
 	height: 66px;
 	width: 152;
 	text-indent: -800px;
@@ -34,7 +34,7 @@ body {
 	font-size: 0.9em;
 	padding: 0.9em;
 	line-height: 2.1em;
-	background: #b10333 url(ima/imagens/divisor.png) repeat-y top left;
+	background: #b10333 url(imagens/divisor.png) repeat-y top left;
 }
 
 ul {
@@ -121,7 +121,7 @@ body.fotos #nav a#fotos
 /* Caixa */
 
 .caixa {
-	background: #f3f3f3 url(ima/imagens/fundo-caixa.png);
+	background: #f3f3f3 url(imagens/fundo-caixa.png);
 	margin: 10px 0;
 	padding: 5px 0 5px 0;
 }
@@ -154,7 +154,7 @@ h2 {
 
 #lateral ul a:hover {
 	color: #a1a1a1;
-	background: #f9f9f9 url(ima/imagens/marcador.png) no-repeat left center;
+	background: #f9f9f9 url(imagens/marcador.png) no-repeat left center;
 	text-indent: 20px;
 }
 
